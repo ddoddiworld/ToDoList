@@ -1,0 +1,220 @@
+/*모바일용 */
+@media all and (min-width: 320px){
+    /* 모바일용 CSS*/
+    /*기본 CSS */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-size: 20px;
+    }
+    
+    #wrapper {
+        margin: 0 auto;
+        text-align: center;
+        width: 80%;
+        height: auto;
+        border: 3px solid cornflowerblue;
+        padding: 100px 0;
+        max-width: 1200px;
+    }
+    /* //기본 CSS  */
+
+    h1 {
+        color: cornflowerblue;
+        font-size: 3rem;
+        margin: 0px 0 30px;
+    }
+    
+    input {
+        background-color: white;
+        outline: 3px solid cornflowerblue;
+        border: none;
+        border-radius: 20px;
+        width: 250px;
+        height: 40px;
+        text-align: center;
+        font-size: 1rem;
+    }
+    
+    input:focus {
+        outline: 3px solid cornflowerblue;
+        border: none;
+    }
+    
+    input::placeholder {
+        color: #4444;
+    }
+    
+    .addBtn {
+        background-color: cornflowerblue;
+        border: none;
+        border-radius: 20px;
+        width: 90px;
+        height: 40px;
+        color: white;
+        font-weight: 600;
+        margin: 0 2px;
+        font-size: 1rem;
+    }
+    
+    .notePad ul {
+        margin: 0 auto;
+        padding: 10px 50px 0;
+    }
+    
+    .notePad ul li {
+        width: 300px;
+        list-style: square;
+        margin: 0 auto;
+        color: #666666;
+        text-align: left;
+        font-size: 1rem;
+        padding: 10px 0;
+    }
+    
+    .notePad ul li::marker{
+        color: cornflowerblue;
+    }
+    
+    .close{
+        float: right;
+        color: cornflowerblue;}
+    
+}
+
+/* 테블릿용 */
+@media all and (min-width: 768px){
+    h1 {
+        color: cornflowerblue;
+        font-size: 4rem;
+        margin: 0px 0 30px;
+    }
+    
+    input {
+        background-color: white;
+        outline: 3px solid cornflowerblue;
+        border: none;
+        border-radius: 20px;
+        width: 350px;
+        height: 50px;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    
+    input:focus {
+        outline: 3px solid cornflowerblue;
+        border: none;
+    }
+    
+    input::placeholder {
+        color: #4444;
+    }
+    
+    .addBtn {
+        background-color: cornflowerblue;
+        border: none;
+        border-radius: 20px;
+        width: 100px;
+        height: 50px;
+        color: white;
+        font-weight: 600;
+        margin: 0 2px;
+        font-size: 1.2rem;
+    }
+    
+    .notePad ul {
+        margin: 0 auto;
+        padding: 30px 50px 0;
+    }
+    
+    .notePad ul li {
+        width: 500px;
+        list-style: square;
+        margin: 0 auto;
+        color: #666666;
+        text-align: left;
+        font-size: 1rem;
+        padding: 10px 0;
+        font-size: 1rem;
+    }
+    
+    .notePad ul li::marker{
+        color: cornflowerblue;
+    }
+    
+    .close{
+        float: right;
+        color: cornflowerblue;}
+}
+
+/* PC용 */
+@media all and (min-width: 960px){
+    h1 {
+        color: cornflowerblue;
+        font-size: 4.2rem;
+        margin: 0px 0 30px;
+    }
+    
+    input {
+        background-color: white;
+        outline: 3px solid cornflowerblue;
+        border: none;
+        border-radius: 20px;
+        width: 400px;
+        height: 50px;
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    
+    input:focus {
+        outline: 3px solid cornflowerblue;
+        border: none;
+    }
+    
+    input::placeholder {
+        color: #4444;
+    }
+    
+    .addBtn {
+        background-color: cornflowerblue;
+        border: none;
+        border-radius: 20px;
+        width: 100px;
+        height: 50px;
+        color: white;
+        font-weight: 600;
+        margin: 0 2px;
+        font-size: 1.2rem;
+    }
+    
+    .notePad ul {
+        margin: 0 auto;
+        padding: 30px 50px 0;
+    }
+    
+    .notePad ul li {
+        width: 500px;
+        list-style: square;
+        margin: 0 auto;
+        color: #666666;
+        text-align: left;
+        font-size: 1rem;
+        padding: 10px 0;
+        font-size: 1.2rem;
+    }
+    
+    .notePad ul li::marker{
+        color: cornflowerblue;
+    }
+    
+    .close{
+        float: right;
+        color: cornflowerblue;}
+    
+
+
+}
